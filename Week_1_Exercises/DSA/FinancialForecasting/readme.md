@@ -1,4 +1,4 @@
-# Finacial Forecasting
+# Financial Forecasting
 
 ##	Explain the concept of recursion and how it can simplify certain problems
 Recursion is a programming technique where a function calls itself in order to solve a problem. This approach simplifies problems by breaking them down into smaller, more manageable sub-problems that are easier to solve. Each recursive call tackles a smaller instance of the original problem until a base case is reached, which is directly solvable without further recursion.
