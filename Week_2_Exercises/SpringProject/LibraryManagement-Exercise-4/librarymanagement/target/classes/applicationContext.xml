@@ -7,6 +7,7 @@
     <!-- Bean definition for BookRepository -->
     <bean id="bookRepository" class="com.librarymanagement.repository.BookRepository"/>
 
+    
     <!-- Bean definition for BookService -->
     <bean id="bookService" class="com.librarymanagement.service.BookService">
         <property name="bookRepository" ref="bookRepository"/>
