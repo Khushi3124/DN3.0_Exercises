@@ -6,7 +6,8 @@ import org.springframework.stereotype.Repository;
 
 public class BookRepository {
     // Repository logic methods
-    public void performRepositoryAction() {
+    public void performRepositoryAction() 
+    {
         
         // Logic for repository actions
         System.out.println("Repository action performed");

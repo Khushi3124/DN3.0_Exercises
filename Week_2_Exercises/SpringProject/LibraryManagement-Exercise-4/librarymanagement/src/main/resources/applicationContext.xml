@@ -14,9 +14,11 @@
     <bean id="bookRepository" class="com.librarymanagement.repository.BookRepository"/>
 
     
-    <!-- Bean definition for BookService -->
+    <!-- Bean definition for BookService with constructor and setter injection-->
     <bean id="bookService" class="com.librarymanagement.service.BookService">
+        <constructor-arg ref="bookRepository"/>
         <property name="bookRepository" ref="bookRepository"/>
+         
     </bean>
 
 </beans>
