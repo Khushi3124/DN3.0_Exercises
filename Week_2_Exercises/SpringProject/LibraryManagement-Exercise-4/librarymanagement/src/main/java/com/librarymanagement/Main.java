@@ -6,7 +6,8 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 import com.librarymanagement.service.BookService;
 
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) 
+    {
 
         // Load Spring context from applicationContext.xml
         ApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
